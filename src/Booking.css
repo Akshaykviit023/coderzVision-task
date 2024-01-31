@@ -1,0 +1,79 @@
+.booking{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movieSelectionContainer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingStatusContainer{
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-around;
+}
+
+.naContainer, .selectedContainer, .occupiedContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.na, .selected, .occupied {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+}
+
+.selected{
+    background-color: green;
+}
+
+.occupied{
+    background-color: grey;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0rem;
+}
+
+.cell{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+}
+.sel{
+    background-color: green;
+}
+
+.occ{
+    background-color: grey;
+}
+
+.seatsContainer{
+    background-color: rgb(221, 221, 221);
+    padding: 1rem 2rem;
+}
+
+.cinemaContainer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingHandler{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
